@@ -1,0 +1,274 @@
+/*
+Theme Name: Sleek Portfolio
+Theme URI: https://rarathemes.com/wordpress-themes/sleek-portfolio/
+Author: Rara Theme
+Author URI: https://rarathemes.com/
+Description: Sleek Portfolio is a mobile-friendly free portfolio WordPress theme to create an attractive portfolio website for showcasing your skills and projects. This theme is the perfect option to create portfolio sites for photographers, digital agencies, artists, graphic designers, painters and other freelancers. The theme includes multiple sections such as banner, projects, call to action, blog and more to keep your visitors engaged. Built with best SEO practices, this theme is SEO Optimized, Schema friendly and speed optimized to help your site rank better. Sleek Portfolio is also WooCommerce compatible, translation ready and supports RTL languages. Check the demo at https://rarathemes.com/previews/?theme=sleek-portfolio, documentation at https://docs.rarathemes.com/docs/perfect-portfolio/, and get support at https://rarathemes.com/support-ticket/.
+Version: 1.0.0
+Tested up to: 6.2
+Requires PHP: 5.6
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: sleek-portfolio
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,e-commerce,portfolio
+Template: perfect-portfolio
+*/
+
+
+:root{
+	--primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Manrope', sans-serif;
+    --site-title-font: 'Poppins', sans-serif;
+	--primary-color: #f2643f;
+    --primary-color-rgb: 242, 100, 63;
+	--font-color-light: #676767;
+	--font-color-dark: #1c1b1b;
+}
+
+/*Typography*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea{
+    font-family : var(--primary-font);
+}
+
+section[class*="-section"] .widget-title,
+section[class*="-section"] .widget-title span, .section-title span,
+.related .related-title, 
+.additional-posts .title,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.top-footer .widget .widget-title{
+    font-family : var(--secondary-font);
+}
+
+.site-branding .site-title,
+.site-branding .site-description{
+    font-family : var(--site-title-font);
+}
+
+
+/*===================================
+ ABOUT SECTION LAYOUT LAYOUT FOUR
+ ===================================*/
+ .about-section.layout-four {
+    position: relative;
+    margin-top: 8rem;
+}
+
+.about-section.layout-four  .image-holder {
+    position: absolute;
+    top: -50px;
+    right: 60px;
+    text-align: right;
+}
+
+.about-section.layout-four .widget_rrtc_icon_text_widget {
+    max-width: 575px;
+    text-align: left;
+    position: relative;
+}
+
+.about-section.layout-four .widget_rrtc_icon_text_widget .icon-holder {
+    display: none;
+}
+
+.about-section.layout-four .widget_rrtc_icon_text_widget .widget-title:after {
+    display: none;
+}
+
+.about-section.layout-four  .widget_rrtc_icon_text_widget .widget-title {
+    font-weight: 400;
+}
+
+.about-section.layout-four  .widget_rtc_social_links .widget-title {
+    font-size: 1.5em;
+}
+
+.about-section.layout-four .widget_rtc_social_links {
+    text-align: left;
+    max-width: 830px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.about-section.layout-four .widget_rtc_social_links:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 100px;
+    background: #000;
+    content: '';
+}
+
+.about-section.layout-four .widget_rtc_social_links ul li a {
+    background: none;
+    color: #000;
+}
+
+.about-section.layout-four .widget_rtc_social_links ul li a:hover,
+.about-section.layout-four .widget_rtc_social_links ul li a:focus {
+    background: #000;
+    color: #fff;
+}
+
+.about-section.layout-four .image-holder img {
+    border-radius: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.about-section.layout-four{
+    position: relative;
+    max-width: 1146px;
+    margin: 60px auto 60px auto;
+}
+
+.about-section.layout-four::after{
+    display: none;
+}
+
+.about-section.layout-four .image-holder {
+    position: absolute;
+    top: 40%;
+    right: 0;
+    text-align: right;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px){
+    .about-section.layout-four .image-holder {
+        padding-right: 2%;
+    }
+}
+
+.about-section.layout-four .widget_rrtc_icon_text_widget .widget-title {
+    font-weight: 700;
+    font-size: 2.2em;
+    margin-bottom: 16px;
+}
+
+.about-section.layout-four .widget_rrtc_icon_text_widget .text-holder .content {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 1025px) {
+
+		.about-section.layout-four{
+        margin: 11.125rem auto 8rem auto;
+    }
+
+    .about-section.layout-four .widget_rrtc_icon_text_widget .text-holder .content {
+        max-width: 536px;
+    }
+
+    .about-section.layout-four .image-holder {
+        transform: translateY(-50%);
+    }
+
+    .about-section.layout-four::after{
+        position: absolute;
+        content: '';
+        background-image: url("data:image/svg+xml,%3Csvg width='291' height='101' viewBox='0 0 291 101' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M204.244 26.8361L202.952 27.416L204.244 26.8361ZM289.346 15.3169C290.098 15.1003 290.532 14.3155 290.315 13.5639L286.785 1.31602C286.568 0.564431 285.784 0.130745 285.032 0.347358C284.28 0.563969 283.847 1.34885 284.063 2.10044L287.201 12.9874L276.314 16.1251C275.562 16.3417 275.129 17.1266 275.345 17.8782C275.562 18.6298 276.347 19.0634 277.098 18.8468L289.346 15.3169ZM2.78399 100.173C28.8004 74.6592 71.6589 39.6712 111.757 19.5654C131.824 9.50315 151.036 3.25353 167.025 3.65007C174.995 3.84773 182.12 5.69551 188.159 9.50488C194.193 13.3101 199.232 19.1285 202.952 27.416L205.536 26.2562C201.62 17.53 196.236 11.2501 189.67 7.10907C183.111 2.97222 175.462 1.02592 167.095 0.818414C150.41 0.40461 130.696 6.90032 110.487 17.0333C70.0322 37.3181 26.9358 72.5205 0.800711 98.1509L2.78399 100.173ZM202.952 27.416C208.182 39.071 207.052 49.8184 202.402 58.6771C197.73 67.5801 189.47 74.6266 180.408 78.6776C171.326 82.7374 161.647 83.702 154.135 80.7538C146.747 77.8547 141.165 71.0585 140.348 58.8754L137.522 59.0649C138.401 72.1665 144.538 80.0306 153.1 83.3905C161.536 86.7013 172.034 85.5237 181.564 81.2635C191.114 76.9944 199.899 69.5429 204.911 59.9934C209.946 50.3995 211.138 38.7397 205.536 26.2562L202.952 27.416ZM140.348 58.8754C139.542 46.8483 145.607 36.7211 156.096 28.561C166.607 20.3849 181.439 14.2965 197.749 10.4526C214.043 6.61261 231.711 5.03671 247.814 5.81419C263.946 6.59304 278.372 9.72692 288.269 15.1957L289.639 12.7165C279.205 6.95131 264.29 3.77381 247.951 2.98496C231.584 2.19475 213.652 3.79484 197.1 7.69564C180.564 11.5926 165.304 17.8099 154.357 26.3253C143.39 34.8568 136.633 45.8073 137.522 59.0649L140.348 58.8754Z' fill='%231C1B1B'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        top: -115px;
+        left: 30%;
+        height: 100px;
+        width: 296px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-section.layout-four  .image-holder img{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .about-section.layout-four  .image-holder {
+        position: unset;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1415px) {
+
+    .about-section.layout-four  .widget_rrtc_icon_text_widget {
+        max-width: 575px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+
+    .about-section.layout-four  .widget_rrtc_icon_text_widget {
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .about-section.layout-four  .widget_rrtc_icon_text_widget {
+        margin: 0 0 30px;
+    }
+
+    .about-section.layout-four  .widget_rrtc_icon_text_widget {
+        text-align: center;
+    }
+
+    .about-section.layout-four  .widget_rtc_social_links {
+        text-align: center;
+        max-width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .about-section.layout-four  .widget_rtc_social_links:before {
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .about-section.layout-four  .widget_rrtc_icon_text_widget {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-section.layout-four  {
+        margin-top: 3rem;
+    }
+}
+
+section[class*="-section"] .widget-title:after, 
+.section-title span:after, .page-header .page-title span::before {
+	background: rgba(var(--primary-color-rgb), 0.3);
+}
+
+
+.comment-body .reply .comment-reply-link:before {
+	content: "";
+	mask-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%2305d584" d="M8.309 189.836L184.313 37.851C199.719 24.546 224 35.347 224 56.015v80.053c160.629 1.839 288 34.032 288 186.258 0 61.441-39.581 122.309-83.333 154.132-13.653 9.931-33.111-2.533-28.077-18.631 45.344-145.012-21.507-183.51-176.59-185.742V360c0 20.7-24.3 31.453-39.687 18.164l-176.004-152c-11.071-9.562-11.086-26.753 0-36.328z"></path></svg>');
+	mask-repeat: no-repeat;
+    -webkit-mask-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="%2305d584" d="M8.309 189.836L184.313 37.851C199.719 24.546 224 35.347 224 56.015v80.053c160.629 1.839 288 34.032 288 186.258 0 61.441-39.581 122.309-83.333 154.132-13.653 9.931-33.111-2.533-28.077-18.631 45.344-145.012-21.507-183.51-176.59-185.742V360c0 20.7-24.3 31.453-39.687 18.164l-176.004-152c-11.071-9.562-11.086-26.753 0-36.328z"></path></svg>');
+	-webkit-mask-repeat: no-repeat;
+    background-color: var(--primary-color);
+    background-image: none;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 7px;
+	left: 0;
+}
+
+
+
+

@@ -1,0 +1,1149 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Fifty50\n"
+"POT-Creation-Date: 2023-12-08 23:11-0800\n"
+"PO-Revision-Date: 2022-09-06 14:11-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:20
+msgid "Page not Found"
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"Unfortunately, it looks like the page you were wanting is missing or has "
+"been moved. Perhaps try performing a search?"
+msgstr ""
+
+#: 404.php:32
+msgid "Back To Home"
+msgstr ""
+
+#: classes/class-fifty50-comment-walker.php:28
+msgid "says:"
+msgstr ""
+
+#: classes/class-fifty50-comment-walker.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: classes/class-fifty50-comment-walker.php:37
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: classes/class-fifty50-comment-walker.php:38
+msgid "Edit"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:58
+msgid "Comment"
+msgstr ""
+
+#: footer.php:13
+msgid "Back To Top"
+msgstr ""
+
+#: footer.php:54
+msgid "Footer menu"
+msgstr ""
+
+#: footer.php:72
+msgid "Copyright &copy;"
+msgstr ""
+
+#: footer.php:73
+msgid "Y"
+msgstr ""
+
+#: footer.php:75
+msgid "All rights reserved."
+msgstr ""
+
+#: functions.php:60
+msgid "Black"
+msgstr ""
+
+#: functions.php:66
+msgid "Grey"
+msgstr ""
+
+#: functions.php:72
+msgid "White"
+msgstr ""
+
+#: functions.php:79
+msgid "Primary"
+msgstr ""
+
+#: functions.php:84
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:89
+msgid "Tertiary"
+msgstr ""
+
+#: functions.php:102
+msgid "Extra small"
+msgstr ""
+
+#: functions.php:103
+msgctxt "Font size"
+msgid "XS"
+msgstr ""
+
+#: functions.php:108 inc/template-functions.php:260
+msgid "Small"
+msgstr ""
+
+#: functions.php:109
+msgctxt "Font size"
+msgid "S"
+msgstr ""
+
+#: functions.php:114 inc/template-functions.php:266
+msgid "Medium"
+msgstr ""
+
+#: functions.php:115
+msgctxt "Font size"
+msgid "M"
+msgstr ""
+
+#: functions.php:120 inc/template-functions.php:273
+msgid "Large"
+msgstr ""
+
+#: functions.php:121
+msgctxt "Font size"
+msgid "L"
+msgstr ""
+
+#: functions.php:126
+msgid "Extra large"
+msgstr ""
+
+#: functions.php:127
+msgctxt "Font size"
+msgid "XL"
+msgstr ""
+
+#: functions.php:132 inc/template-functions.php:285
+msgid "Huge"
+msgstr ""
+
+#: functions.php:133
+msgctxt "Font size"
+msgid "XXL"
+msgstr ""
+
+#: functions.php:138 inc/template-functions.php:291
+msgid "Gigantic"
+msgstr ""
+
+#: functions.php:139
+msgctxt "Font size"
+msgid "XXXL"
+msgstr ""
+
+#: functions.php:171
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:172
+msgid "Off Canvas Menu"
+msgstr ""
+
+#: functions.php:173
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:174
+msgid "Social Menu"
+msgstr ""
+
+#: header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#. translators: %s: WordPress Version.
+#: inc/back-compat.php:42 inc/back-compat.php:59 inc/back-compat.php:83
+#, php-format
+msgid ""
+"This theme requires WordPress 4.7 or newer. If you use blocks, you will need "
+"at least version 5.0. You are running version %s. Please upgrade."
+msgstr ""
+
+#: inc/customizer/custom-controls/custom-control.php:38
+#: inc/customizer/customizer.php:27
+msgid "Site Description"
+msgstr ""
+
+#: inc/customizer/custom-controls/custom-control.php:41
+msgid "Main Body"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/class-control-repeater.php:75
+msgid "row"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/class-control-repeater.php:83
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/class-control-repeater.php:238
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/customizer/custom-controls/repeater/class-control-repeater.php:370
+msgid "Hex Value"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:97
+msgctxt "font style"
+msgid "Georgia"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:101
+msgctxt "font style"
+msgid "Palatino Linotype, Book Antiqua, Palatino"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:105
+msgctxt "font style"
+msgid "Times New Roman, Times"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:109
+msgctxt "font style"
+msgid "Arial, Helvetica"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:113
+msgctxt "font style"
+msgid "Arial Black, Gadget"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:117
+msgctxt "font style"
+msgid "Comic Sans MS, cursive"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:121
+msgctxt "font style"
+msgid "Impact, Charcoal"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:125
+msgctxt "font style"
+msgid "Lucida Sans Unicode, Lucida Grande"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:129
+msgctxt "font style"
+msgid "Tahoma, Geneva"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:133
+msgctxt "font style"
+msgid "Trebuchet MS, Helvetica"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:137
+msgctxt "font style"
+msgid "Verdana, Geneva"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:141
+msgctxt "font style"
+msgid "Courier New, Courier"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:145
+msgctxt "font style"
+msgid "Lucida Console, Monaco"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:205
+#: inc/customizer/custom-controls/typography/class-typography-control.php:92
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:206
+#: inc/customizer/custom-controls/typography/class-typography-control.php:93
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:207
+#: inc/customizer/custom-controls/typography/class-typography-control.php:94
+msgid "Light 200"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:208
+#: inc/customizer/custom-controls/typography/class-typography-control.php:95
+msgid "Light 200 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:209
+#: inc/customizer/custom-controls/typography/class-typography-control.php:96
+msgid "Book 300"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:210
+#: inc/customizer/custom-controls/typography/class-typography-control.php:97
+msgid "Book 300 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:211
+#: inc/customizer/custom-controls/typography/class-typography-control.php:98
+msgid "Normal 400"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:212
+#: inc/customizer/custom-controls/typography/class-typography-control.php:99
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:213
+#: inc/customizer/custom-controls/typography/class-typography-control.php:100
+msgid "Medium 500"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:214
+#: inc/customizer/custom-controls/typography/class-typography-control.php:101
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:215
+#: inc/customizer/custom-controls/typography/class-typography-control.php:102
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:216
+#: inc/customizer/custom-controls/typography/class-typography-control.php:103
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:217
+#: inc/customizer/custom-controls/typography/class-typography-control.php:104
+msgid "Bold 700"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:218
+#: inc/customizer/custom-controls/typography/class-typography-control.php:105
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:219
+#: inc/customizer/custom-controls/typography/class-typography-control.php:106
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:220
+#: inc/customizer/custom-controls/typography/class-typography-control.php:107
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:221
+#: inc/customizer/custom-controls/typography/class-typography-control.php:108
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-fonts.php:222
+#: inc/customizer/custom-controls/typography/class-typography-control.php:109
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:46
+msgid "ON"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:47
+msgid "OFF"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:48
+msgid "All"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:49
+msgid "Cyrillic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:50
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:51
+msgid "Devanagari"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:52
+msgid "Greek"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:53
+msgid "Greek Extended"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:54
+msgid "Khmer"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:55
+msgid "Latin"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:56
+msgid "Latin Extended"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:57
+msgid "Vietnamese"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:58
+msgid "Hebrew"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:59
+msgid "Arabic"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:60
+msgid "Bengali"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:61
+msgid "Gujarati"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:62
+msgid "Tamil"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:63
+msgid "Telugu"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:64
+msgid "Thai"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:65
+msgctxt "font style"
+msgid "Serif"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:66
+msgctxt "font style"
+msgid "Sans Serif"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:67
+msgctxt "font style"
+msgid "Monospace"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:68
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:69
+msgid "Font Size"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:70
+msgid "Font Weight"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:71
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:72
+msgid "Font Style"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:73
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:74
+msgid "Text Align"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:75
+msgid "Text Transform"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:76
+msgid "None"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:77
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:78
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:79
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:80
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:81
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:82
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:83
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:84
+msgid "Justify"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:85
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:86
+msgid "Select a font-family"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:87
+msgid "Variant"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:88
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:89
+msgid "Size"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:90
+msgid "Height"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:91
+msgid "Spacing"
+msgstr ""
+
+#: inc/customizer/custom-controls/typography/class-typography-control.php:110
+msgid "Invalid Value"
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:21
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:31
+msgid "Blog Excerpts"
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:54
+msgid "Enable Blog Excerpts"
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:55
+msgid "Enable to show excerpts or disable to show full post content."
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:76
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/customizer-sections/blog.php:77
+msgid "Automatically generated excerpt length (in words)."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:19
+msgid "Colours"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:24
+msgid "Preset Colours"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:31
+msgid "Content Colors"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:38
+msgid "Navigation Colors"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:60
+msgid "Preset Groups"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:61
+msgid ""
+"Choose a preset colour palette for your theme. This will load a variety of "
+"accent colours for select elements in your page."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:85
+msgid "Custom Accent Colours"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:86
+msgid "Enable to change the theme accent colours to be your own."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:103
+msgid "Primary Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:104
+msgid "Sets a custom primary accent colour for your theme."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:121
+msgid "Secondary Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:122
+msgid "Sets a custom secondary accent colour for your theme."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:139
+msgid "Tertiary Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:140
+msgid "Sets a custom tertiary (third) accent colour for your theme."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:158
+msgid "Body Content Background"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:159
+msgid ""
+"Unless a preset changes the colour, you can customize your body and content "
+"area background colour."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:179
+msgid "Body Text Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:201
+msgid "Secondary Text Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:223
+msgid "Headings Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:245
+msgid "Headings Line Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:267
+msgid "Content Links"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:292
+msgid "Banner Caption Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:314
+msgid "Banner Caption Text Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:335
+msgid "Primary Nav Link Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:336
+msgid "This sets the colour for your primary menu links."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:353
+msgid "Mobile Menu Line Separators"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:354
+msgid "This sets the colour for your mobile menu line separators."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:370
+msgid "Pagination Number Backgrounds"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:371
+msgid ""
+"This sets the colour for the non-active blog pagination background numbers."
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:387
+msgid "Pagination Numbers"
+msgstr ""
+
+#: inc/customizer/customizer-sections/color.php:388
+msgid ""
+"This sets the colour for the non-active blog pagination numbers numbers."
+msgstr ""
+
+#: inc/customizer/customizer-sections/labels.php:21
+msgid "Label Options"
+msgstr ""
+
+#: inc/customizer/customizer-sections/labels.php:42
+msgid "Hide Prefix in Archive Pages"
+msgstr ""
+
+#: inc/customizer/customizer-sections/labels.php:43
+msgid "Enable to hide the archive prefix labels from archive titles."
+msgstr ""
+
+#: inc/customizer/customizer-sections/labels.php:56
+msgid "Copyright Name"
+msgstr ""
+
+#: inc/customizer/customizer-sections/labels.php:57
+msgid "Enter your name, website name, or company name [ no html ]."
+msgstr ""
+
+#: inc/customizer/customizer-sections/layout.php:17
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/customizer-sections/layout.php:32
+msgid "Sticky Top Navigation"
+msgstr ""
+
+#: inc/customizer/customizer-sections/layout.php:33
+msgid ""
+" Enable to make your top navigation stay fixed in place when you scroll."
+msgstr ""
+
+#: inc/customizer/customizer-sections/layout.php:52
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:17
+msgid "Other Options"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:31
+msgid "Hide the Back to Top Link"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:32
+msgid "Show or hide the footer Back To Top navigation link."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:43
+msgid "Hide Banner Captions"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:44
+msgid ""
+"Show or hide the banner sidebar image captions when using the image widget."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:56
+msgid "Hide Edit Link"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:57
+msgid ""
+"Show or hide the edit link from posts and pages. This will not show in the "
+"Customizer."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:75
+msgid "Side Column Width"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:76
+msgid ""
+"Change the side column width. This will also adjust the main content window."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:95
+msgid "Side Column Overlay Transparency"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:96
+msgid "Change the level of transparency for the side column image overlay."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:115
+msgid "Side Column Height on Mobile"
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:116
+msgid ""
+"Change the height for your side column when viewed in a mobile device. This "
+"will show more as you increase the height."
+msgstr ""
+
+#: inc/customizer/customizer-sections/other.php:140
+msgid "Side Column Text Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:34
+msgid "Show the Site Title"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:35
+msgid "Show or hide the site title."
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:51
+msgid "Show the Site Description"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:52
+msgid "Show or hide the site tagline [description]."
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:68
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:69
+msgid "Sets the site title colour in the sidebar area."
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:85
+msgid "Site Tagline Colour"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:86
+msgid "Sets the site tagline [ description ] colour in the header area."
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:101
+msgid "Site Logo Size"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:102
+msgid "Change the site logo size for your sidebar column."
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:122
+msgid "Site Title Font Size"
+msgstr ""
+
+#: inc/customizer/customizer-sections/site.php:123
+msgid "Change the font size of your site title."
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:18
+msgid "Fifty50 Pro Features - Save $10"
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:33
+msgid ""
+"Save $10 (Limited Time Offer!) if you decide to upgrade to the Pro version "
+"(plugin) option with this discount code on checkout: "
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:38
+msgid "Pro Features: "
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:61
+msgid ""
+"Even though the FREE version of Fifty50 offers a lot, you may want to opt-in "
+"for more features."
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:63
+#, php-format
+msgid "%1$sView Details%2$s"
+msgstr ""
+
+#: inc/customizer/customizer-sections/upgrade.php:73
+msgid "Fifty50 Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:28
+msgid "Short description of what your website is about."
+msgstr ""
+
+#: inc/customizer/customizer.php:36
+msgid "Content Area"
+msgstr ""
+
+#: inc/customizer/customizer.php:37
+msgid "Side Column Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:101
+msgid "Centered"
+msgstr ""
+
+#: inc/customizer/customizer.php:102
+msgid "List"
+msgstr ""
+
+#: inc/inline-styles.php:46
+msgid "Author"
+msgstr ""
+
+#: inc/sidebars.php:17
+msgid "Banner"
+msgstr ""
+
+#: inc/sidebars.php:19
+msgid "Banner sidebar for images and sliders."
+msgstr ""
+
+#: inc/sidebars.php:27
+msgid "Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:29
+msgid "First sidebar of the bottom group located above the footer area."
+msgstr ""
+
+#: inc/sidebars.php:37
+msgid "Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:39
+msgid "Second sidebar of the bottom group located above the footer area."
+msgstr ""
+
+#: inc/sidebars.php:47
+msgid "Footer"
+msgstr ""
+
+#: inc/sidebars.php:49
+msgid "Add a widget to your footer area."
+msgstr ""
+
+#: inc/template-functions.php:231 inc/template-tags.php:101
+msgctxt "placeholder"
+msgid "Type keywords..."
+msgstr ""
+
+#: inc/template-functions.php:231 inc/template-tags.php:101
+msgctxt ""
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-functions.php:253
+msgid "Extra Small"
+msgstr ""
+
+#: inc/template-functions.php:279
+msgid "Extra Large"
+msgstr ""
+
+#: inc/template-functions.php:382
+msgid "Name"
+msgstr ""
+
+#: inc/template-functions.php:387
+msgid "Email"
+msgstr ""
+
+#: inc/template-functions.php:392
+msgid "Website"
+msgstr ""
+
+#: inc/template-functions.php:409
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: inc/template-functions.php:456 inc/template-functions.php:469
+msgid "Continue Reading..."
+msgstr ""
+
+#: inc/template-tags.php:97 inc/template-tags.php:102
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:139
+msgid "Menu"
+msgstr ""
+
+#: inc/template-tags.php:197 template-parts/content-list.php:37
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:240
+#, php-format
+msgid "Updated <span>%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers.
+#: inc/template-tags.php:270
+#, php-format
+msgid "Make a comment <span class=\"screen-reader-text\">on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:306
+#, php-format
+msgid "Edit Post<span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/template-tags.php:432
+#, php-format
+msgid "Published by %s"
+msgstr ""
+
+#: inc/template-tags.php:435
+#, php-format
+msgid "View all posts by %s &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:447
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:449
+#, php-format
+msgid "Categories: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:460
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:463
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:534
+msgid "Next post"
+msgstr ""
+
+#: inc/template-tags.php:534
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:535
+msgid "Previous post"
+msgstr ""
+
+#: inc/template-tags.php:535
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:550
+msgid "Pages:"
+msgstr ""
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "Ready to publish your first post?"
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid "Get started here"
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"Unfortunately, nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:36
+msgid ""
+"It seems we cannot find what you were wanting. Perhaps searching can help "
+"find what you are looking for?"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Fifty50"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.roughpixels.com/themes/fifty50/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Get away from the basic blog style and go for something a little different. "
+"Designed with a split view, you can showcase an amazing side column photo; "
+"which you can change the width to your liking. If you don't like the colour "
+"scheme, Fifty50 comes with 10 preset colour options to choose from. You even "
+"get two menu choices, a standard version and then an off-canvas overlay "
+"menu. We even have you covered if you prefer the Classic editor, but if you "
+"want to take advantage of blocks, you can! Fifty50 is ideal for personal "
+"bloggers, travelers, artists, writers, outdoor enthusiasts, personal "
+"journals, beauty, foodies, authors, and more!"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rough Pixels"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.roughpixels.com"
+msgstr ""
