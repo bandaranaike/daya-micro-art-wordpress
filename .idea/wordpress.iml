@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/wordpress_data/wp-content/plugins/google-analytics-for-wordpress/includes/gutenberg/headline-tool/phpinsight/lib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/wordpress_data/wp-content/plugins/one-click-demo-import/inc" isTestSource="false" packagePrefix="OCDI" />
+      <sourceFolder url="file://$MODULE_DIR$/wordpress_data/wp-content/plugins/woocommerce/packages/action-scheduler/classes" isTestSource="false" packagePrefix="Action_Scheduler" />
+      <sourceFolder url="file://$MODULE_DIR$/wordpress_data/wp-content/plugins/wpforms-lite/src" isTestSource="false" packagePrefix="WPForms" />
+      <sourceFolder url="file://$MODULE_DIR$/wordpress_data/wp-includes" isTestSource="false" packagePrefix="PHPMailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
